@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Entorno virtual (crucial para aislar dependencias en equipos compartidos)
 venv-personal/
 venv/
@@ -30,3 +31,10 @@ Thumbs.db
 logs/
 temp/
 tmp/
+=======
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+>>>>>>> b53f097 (Primera versión de mi API con FastAPI)
