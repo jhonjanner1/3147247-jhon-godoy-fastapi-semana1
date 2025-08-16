@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #!/usr/bin/env python3
 """
 Mi Primera API FastAPI - Verificación de Setup
@@ -54,7 +54,6 @@ if __name__ == "__main__":
     print("🌐 Acceder a: http://localhost:8000")
     print("📄 Documentación: http://localhost:8000/docs")
     uvicorn.run(app, host="0.0.0.0", port=8000, reload=True)
-=======
 from fastapi import FastAPI
 
 app = FastAPI(title="Mi Primera API")
@@ -70,7 +69,3 @@ def info():
 @app.get("/greeting/{name}")
 def greet_user(name: str):
     return {"greeting": f"¡Hola {name}!"}
-
-
-
->>>>>>> b53f097 (Primera versión de mi API con FastAPI)
